@@ -15,4 +15,6 @@ GRANT UPDATE, SELECT ON * . * TO 'user2'@'localhost';
 // pour que les changement prennent effet on tape la commande suivant:
 
 FLUSH PRIVILEGES;
+*******************
+
 
