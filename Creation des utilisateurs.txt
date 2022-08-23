@@ -1,0 +1,18 @@
+-- Creation des user1 et user2:--
+
+- pour user1
+
+CREATE USER 'user1'@'localhost' IDENTIFIED BY '123';
+
+GRANT SELECT ON * . * TO 'nom_utilisateur'@'localhost';
+
+- Pour user2
+
+CREATE USER 'user2'@'localhost' IDENTIFIED BY '123';
+
+GRANT UPDATE, SELECT ON * . * TO 'user2'@'localhost';
+
+// pour que les changement prennent effet on tape la commande suivant:
+
+FLUSH PRIVILEGES;
+
